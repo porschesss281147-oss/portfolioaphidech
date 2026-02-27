@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Aphidech</title>
+
+<link rel="icon" href="favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">
+        <span class="dot"></span>
+        <h2>Aphidech Phonsit</h2>
+    </div>
+
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+         <li><a href="experience.html">Experience</a></li>
+    </ul>
+</nav>
+
+<section class="section">
+
+    <h1 class="page-title">Projects</h1>
+
+    <!-- FILTER BUTTON -->
+    <div class="filter-buttons">
+        <button onclick="filterProject('all')">All</button>
+        <button onclick="filterProject('web')">Web</button>
+        <button onclick="filterProject('design')">Design</button>
+    </div>
+
+    <!-- PROJECT GRID -->
+    <div class="projects-grid">
+
+        <div class="project-card web">
+            <img src="https://source.unsplash.com/400x300/?website" alt="">
+            <h3>Restaurant Website</h3>
+            <p>Responsive website built with HTML, CSS & PHP.</p>
+        </div>
+
+        <div class="project-card design">
+            <img src="https://source.unsplash.com/400x300/?ui" alt="">
+            <h3>UI/UX Design</h3>
+            <p>Mobile app prototype designed in Figma.</p>
+        </div>
+
+        <div class="project-card web">
+            <img src="https://source.unsplash.com/400x300/?code" alt="">
+            <h3>E-commerce System</h3>
+            <p>Full stack project with database integration.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
