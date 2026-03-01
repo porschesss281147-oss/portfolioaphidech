@@ -89,6 +89,29 @@ body.dark .project-card p {
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
+.profile {
+    padding: 6px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #bfab73, #93625f, #78c5c5);
+     animation: float 6s ease-in-out infinite;
+    
+    backdrop-filter: blur(20px);
+    padding: 15px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+.profile img {
+    border-radius: 50%;
+    display: block;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
 .hero-content {
     max-width: 500px;
 }
