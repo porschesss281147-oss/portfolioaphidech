@@ -85,7 +85,7 @@ body.dark .project-card p {
     width: 420px;
     height: 420px;
     object-fit: cover;
-    object-position: center 20%;
+    object-position: center 10%;
     border-radius: 50%;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
