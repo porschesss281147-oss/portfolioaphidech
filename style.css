@@ -82,11 +82,12 @@ body.dark .project-card p {
 }
 
 .profile img {
-    width: 420px;
-    height: 420px;
+    width: 360px;
+    height: 360px;
     object-fit: cover;
-    object-position: center 10%;
+    object-position: center 15%;
     border-radius: 50%;
+    display: block;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
@@ -100,11 +101,6 @@ body.dark .project-card p {
     padding: 15px;
     border-radius: 50%;
     border: 1px solid rgba(255,255,255,0.3);
-}
-
-.profile img {
-    border-radius: 50%;
-    display: block;
 }
 
 @keyframes float {
